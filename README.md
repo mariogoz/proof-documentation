@@ -37,6 +37,6 @@ node index.js
 docker-compose up
 ```
 
-![Alt text](../imagenes/step-1.png)
+![Alt text](/main/imagenes/step-1.png)
 
 
