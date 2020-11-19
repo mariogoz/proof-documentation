@@ -37,6 +37,9 @@ node index.js
 docker-compose up
 ```
 
-![Alt text](/main/imagenes/step-1.png)
+![Settings Window](https://github.com/mariogoz/proof-documentation/blob/main/images/step-1.png)
 
+![Settings Window](https://github.com/mariogoz/proof-documentation/blob/main/images/step-2.png)
+
+![Settings Window](https://github.com/mariogoz/proof-documentation/blob/main/images/step-2.1.png)
 
