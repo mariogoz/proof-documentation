@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  backend:
+    container_name: nodejs
+    restart: always
+    build: ./back-walmart
+    ports:
+    - "3000:3000"
+    volumes:
+    - .:/usr/src/app
+  angular:
+    container_name: ui-angular
+    restart: always
+    build: ./front-walmart
+    ports:
+    - "80:80"
+    volumes:
+      - ./app-ui:/app
+      - /app/node_modules
+  
